@@ -13,3 +13,17 @@ function atualizarListaAmigos() {
         lista.appendChild(novoElemento);   
     }
 }
+
+function adicionarAmigo() {
+    let amigo = document.getElementById("amigo");
+
+    if (!amigo.value) {
+        return alert("Por favor, insira um nome.")
+    }
+
+    console.log("input do usuário: " + amigo.value);
+    amigos.push(amigo.value);
+    atualizarListaAmigos();
+
+    amigo.value = "";
+}
