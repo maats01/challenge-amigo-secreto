@@ -27,3 +27,14 @@ function adicionarAmigo() {
 
     amigo.value = "";
 }
+
+function sortearAmigo() {
+    if (amigos.length == 0) {
+        return;
+    }
+
+    let indiceSorteado = Math.floor(Math.random() * (amigos.length));
+    let amigoSorteado = amigos[indiceSorteado];
+
+    document.getElementById("resultado").innerHTML = amigoSorteado;
+}
