@@ -12,4 +12,4 @@ git clone https://github.com/maats01/Controle-Financeiro.git
 ```
 
 ### 2. Iniciar a aplicação
-Iniciar a aplicação pelo index.html, que é o seu ponto de entrada. Pode ser feito utilizando a extensão Live Server ou alguma outra ferramenta do gênero.
+Iniciar a aplicação utilizando um servidor local, pelo index.html, que é o seu ponto de entrada. Pode ser feito utilizando a extensão Live Server ou alguma outra ferramenta do gênero.
